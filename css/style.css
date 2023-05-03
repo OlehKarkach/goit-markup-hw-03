@@ -157,10 +157,10 @@ body{
     letter-spacing: 0.02em;
 
     position: absolute;
-    width: 496px;
-    height: 120px;
+    max-width: 496px
+    /* height: 120px;
     left: 472px;
-    top: 260px;
+    top: 260px; */
 }
 
 .promo-title{
@@ -219,15 +219,18 @@ body{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    height: 56px;
+    display: block;
+    border: none;
 
-    display: flex;
+    display: flex; */
     flex-direction: row;
     align-items: flex-start;
     padding: 16px 32px;
     gap: 10px;
 
-    position: absolute;
-    min-width: 169px;
+    /* /* position: absolute;
+    min-width: 169px; */
     min-height: 56px;
     left: 636px;
     top: 428px;
@@ -364,7 +367,7 @@ body{
 
 .hero{
     padding-top: 188px;
-    padding-bottom: 292px;
+    padding-bottom: 188px;
     
 }   
 
