@@ -222,11 +222,11 @@ body{
     height: 56px;
     display: block;
 
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 16px 32px;
-    gap: 10px;
+    gap: 10px; */
 
     position: absolute;
     min-width: 169px;
