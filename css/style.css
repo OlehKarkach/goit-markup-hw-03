@@ -343,8 +343,9 @@ body{
     margin-right:40px ;
 }
 
-.contact-item:not(:last-child){
-    margin-right: 40px;
+.contact-item{
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .page-header-container .logo{
