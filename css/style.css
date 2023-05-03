@@ -283,9 +283,10 @@ body{
 /* <=================HOMEWROEK#3=====================> */
 
 .container{
-    width: 1200px;
-    margin-left: 15px;
-    margin-left: 15px;
+    width: 1158px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
     }
 
     img {
@@ -316,7 +317,13 @@ body{
 
 .menu-list{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.address{
+    display: flex;
 }
 
 .logo{
@@ -328,7 +335,7 @@ body{
 }
 
 .contact{
-    margin-left: auto;
+    /* margin-left: auto; */
     display: flex;
 }
  
@@ -347,7 +354,7 @@ body{
 }
 
 .page-header{
-    border-bottom: 1px solid #ECECEC;;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .logo{
