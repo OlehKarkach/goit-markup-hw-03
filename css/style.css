@@ -416,6 +416,11 @@ letter-spacing: 0.02em;
     padding: 32px 16px 32px;
 }
 
+.persona-title{
+    margin-bottom: 8px;
+}
+
+
 .promo-list-item{
     width: calc((100% - 72px) / 4);
 }
