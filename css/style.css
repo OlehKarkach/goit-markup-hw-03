@@ -378,6 +378,10 @@ body{
     margin-right: 24px;
 }
 
+.promo-list{
+    /* width: calc((100% - 72px) / 4); */
+}
+
 .promo-list-item{
     display: flex;
     
@@ -397,7 +401,12 @@ body{
 }
  
 .promo-title{
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
+    margin-bottom: 8px;
+}
+
+.promo-list-item{
+    width: calc((100% - 72px) / 4);
 }
 
 .team-list-item:not(:last-child){
