@@ -382,6 +382,7 @@ letter-spacing: 0.02em;
 
 .promo-list{
     /* width: calc((100% - 72px) / 4); */
+    border-radius: 0px 0px 4px 4px;
 }
 
 .promo-list-item{
@@ -403,9 +404,14 @@ letter-spacing: 0.02em;
 }
  
 .promo-title{
-    /* margin-bottom: 72px; */
+    margin-bottom: 72px;
+}
+
+.section-name{
     margin-bottom: 8px;
 }
+
+
 
 .promo-list-item{
     width: calc((100% - 72px) / 4);
