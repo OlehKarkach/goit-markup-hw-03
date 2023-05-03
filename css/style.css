@@ -361,7 +361,9 @@ body{
 }
 
 .logo{
-    margin-left: 156px;
+    /* margin-left: 156px; */
+    padding-bottom: 100px;
+    
 }
 
 .hero{
@@ -427,6 +429,11 @@ body{
     padding-top: 8px;
     padding-bottom: 32px;
     text-align: center;
+}
+
+.footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .text-footer{
