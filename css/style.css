@@ -391,16 +391,13 @@ letter-spacing: 0.02em;
 
 .promo-list-item{
     display: flex;
-    
+    border-radius: 0px 0px 4px 4px;
+    border: 1px solid #E7E9FC;
 }
 
 .promo-list-item:not(:last-child){
     margin-right: 24px;
     
-}
-
-.promo-list-item{
-    border: 1px solid #E7E9FC;
 }
 
 .main .promo{
