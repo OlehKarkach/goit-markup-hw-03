@@ -221,16 +221,15 @@ body{
     color: #ffffff;
     height: 56px;
     display: block;
-    border: none;
 
-    display: flex; */
+    display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 16px 32px;
     gap: 10px;
 
-    /* /* position: absolute;
-    min-width: 169px; */
+    position: absolute;
+    min-width: 169px;
     min-height: 56px;
     left: 636px;
     top: 428px;
