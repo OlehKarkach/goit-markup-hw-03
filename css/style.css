@@ -29,7 +29,7 @@ img{
 }
 
 .container{
-    width: 1200px;
+    width: 1158px;
     margin: auto;
     padding-left: 15px ;
     padding-right: 15px;
@@ -124,6 +124,8 @@ body{
 
 .logo,
 .top-logo{
+    margin-right: 76px;
+
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -197,6 +199,7 @@ letter-spacing: 0.02em;
 
 .page-nav{
     display: flex;
+    align-items: center;
 
     font-weight: 500;
     font-size: 16px;
@@ -214,17 +217,20 @@ letter-spacing: 0.02em;
     display: flex;
 }
 
-
-/* .page-header{
-    display: flex;
-} */    
+.page-header{
+    border-bottom: 1px solid #e7e9fc
+}
 
 .menu-list{
     display: flex;
 }
 
-.menu-list .nav-item + .nav-item{
+/* .menu-list .nav-item + .nav-item{
     margin-left: 40px;
+} */
+
+.menu-list:not(:last-child){
+    margin-right: 40px;
 }
 
 .menu-list .contact-list{
@@ -232,6 +238,10 @@ letter-spacing: 0.02em;
     padding-top: 24px;
     padding-bottom: 24px;
 }
+
+/* .contact-list:not(:last-child){
+    margin-right: 40px;
+} */
 
 .nav-item{
     margin-left: 76px;
