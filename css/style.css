@@ -233,8 +233,8 @@ letter-spacing: 0.02em;
 }
 
 .contact{
-    display: flex;
-    margin-left: auto;
+    /* display: flex;
+    margin-left: auto; */
 }
 
 .contact .nav-item + .nav-item{
@@ -355,6 +355,17 @@ letter-spacing: 0.02em;
 
 /* =====================PAGE#2==================== */
 
+.section-button{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.list-photo{
+    display: flex;
+}
+
+
+
 .buttons-filter{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -369,8 +380,6 @@ letter-spacing: 0.02em;
 
 }
 
-
-
 .buttons-filter:hover{
     color: #FFFFFF ;
     background-color: #404BBF;
@@ -380,6 +389,8 @@ letter-spacing: 0.02em;
     color: #FFFFFF;
     background-color: #404BBF;
 }
+
+
 
 /* <=================HOMEWROEK#3=====================> */
 
