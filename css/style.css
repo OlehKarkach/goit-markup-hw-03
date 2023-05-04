@@ -18,6 +18,8 @@ ul,ol{
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+    text-decoration: none;
+    list-style: none;
 }
 
 button{
@@ -334,6 +336,7 @@ letter-spacing: 0.02em;
     width: calc((100% - 72px) / 4);
 }
   
+/* FOOTER */
 
 .footer{
     padding-top: 100px;
@@ -367,12 +370,13 @@ letter-spacing: 0.02em;
 .app-name{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top:none;
+}
+
+.discribe{
+    text-align: left;
 }
     
-    
-    
-
-
 
 .button-list{
     justify-content: center;
