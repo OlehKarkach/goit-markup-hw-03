@@ -107,6 +107,8 @@ body{
 }
 
 .title{
+    margin-bottom: 8px;
+
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -219,9 +221,9 @@ letter-spacing: 0.02em;
     border-bottom: 1px solid #e7e9fc
 }
 
-.menu-list{
+/* .menu-list{
     display: flex;
-}
+} */
 
 .menu-list .nav-item + .nav-item{
     margin-left: 40px;
@@ -310,6 +312,20 @@ letter-spacing: 0.02em;
 
 .section-team{
     background-color: #F4F4FD
+}
+
+.section{
+    padding-top:120px ;
+    padding-bottom:120px ;
+}
+
+.list{
+    display: flex;
+    gap: 24px;
+}
+
+.privelage-list{
+    width: calc((100% - 72px) / 4);
 }
 
 
