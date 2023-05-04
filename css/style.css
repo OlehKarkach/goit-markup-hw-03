@@ -300,6 +300,7 @@ letter-spacing: 0.02em;
 }
 
 .team-list-item{
+    border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
 }
 
@@ -317,6 +318,20 @@ letter-spacing: 0.02em;
     display: flex;
     gap: 24px;
 }
+
+.job-title{
+    padding: 32px 16px;
+}
+
+.persona-title {
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+}
+
+
 
 .privelage-list{
     width: calc((100% - 72px) / 4);
