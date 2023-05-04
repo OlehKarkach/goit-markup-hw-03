@@ -17,7 +17,7 @@ h1,h2,h3,h4,h5,h6,p{
 ul,ol{
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 0;
+    padding-left: 0;
 }
 
 button{
@@ -26,6 +26,13 @@ button{
 
 img{
     display: block;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    padding-left: 15px ;
+    padding-right: 15px;
 }
 
 .link{
@@ -83,6 +90,9 @@ body{
 }
 
 .address{
+    display: flex;
+    margin-left: auto;
+
     font-style: normal;
 }
 
@@ -150,11 +160,11 @@ body{
 }
 
 .hero-title{
-position: absolute;
+/* position: absolute;
 max-width: 496px;
 height: 120px;
 left: 472px;
-top: 260px;
+top: 260px; */
 
 font-style: normal;
 font-weight: 700;
@@ -186,6 +196,8 @@ letter-spacing: 0.02em;
 }
 
 .page-nav{
+    display: flex;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;  
@@ -198,6 +210,52 @@ letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 /* =====================PAGE#1==================== */
+.page-header-container{
+    display: flex;
+}
+
+
+/* .page-header{
+    display: flex;
+} */    
+
+.menu-list{
+    display: flex;
+}
+
+.menu-list .nav-item + .nav-item{
+    margin-left: 40px;
+}
+
+.menu-list .contact-list{
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.nav-item{
+    margin-left: 76px;
+}
+
+.contact{
+    display: flex;
+    margin-left: auto;
+}
+
+.contact .nav-item + .nav-item{
+    margin-left: 40px;
+}
+
+.menu-list{
+    display: flex;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    
+}
 
 .hero{
     background-color: #2e2f42 ;
@@ -213,6 +271,10 @@ letter-spacing: 0.02em;
 }
 
 .hero-batton{
+    display: flex;
+    margin: auto;
+    display: block;
+
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -221,22 +283,12 @@ letter-spacing: 0.02em;
     letter-spacing: 0.04em;
     color: #ffffff;
     height: 56px;
-    display: block;
-    
-    /* display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px; */
-    border: none;
-    position: absolute;
-    min-width: 169px;
-    min-height: 56px;
-    left: 636px;
-    top: 428px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    padding: 16px 32px;
+    gap: 10px;
 }
+
 
 .hero-batton:hover{
     background-color: #404BBF; 
@@ -285,206 +337,5 @@ letter-spacing: 0.02em;
 
 /* <=================HOMEWROEK#3=====================> */
 
-.container{
-    width: 1158px;
-    margin: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    }
 
-    img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-      }
-
-    /* *::before,
-    *::after {
-    box-sizing: inherit;
-} */
-
-.section{
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.page-nav{
-    display: flex;
-    align-items: center;
-}
-
-.page-header-container{
-    display: flex;
-    align-items: center;    
-}
-
-.menu-list{
-    display: flex;
-    /* align-items: center; */
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
-.address{
-    display: flex;
-}
-
-.logo{
-    margin-right: 76px;
-}
-
-.contact-list{
-    margin-right:40px;
-}
-
-.contact{
-    /* margin-left: auto; */
-    display: flex;
-}
- 
-.nav-item:not(:last-child){
-    margin-right:40px ;
-}
-
-.contact-item{
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
-.page-header-container .logo{
-    margin-right: 76px;
-    margin-bottom: 25px;
-    margin-top: 25px;
-}
-
-.page-header{
-    border-bottom: 1px solid #e7e9fc;
-    
-}
-
-.logo{
-    /* margin-left: 156px; */
-    padding-bottom: 100px;
-}
-
-.hero{
-    padding-top: 188px;
-    padding-bottom: 188px;
-}   
-
-.list{
-    display:flex;
-}
-
-.privelege-list:not(:last-child){
-    margin-right: 24px;
-}
-
-.privelege-list{
-    width: calc((100% - 48px) / 3);
-}
-
-.promo-list{
-    /* width: calc((100% - 72px) / 4); */
-    /* border-radius: 0px 0px 4px 4px; */
-}
-
-.promo-list-item{
-    display: flex;
-    border-radius: 0px 0px 4px 4px;
-    border: 1px solid #E7E9FC;
-}
-
-.promo-list-item:not(:last-child){
-    margin-right: 24px;
-    
-}
-
-.main .promo{
-    padding-top: 0;
-}
- 
-.promo-title{
-    margin-bottom: 72px;
-}
-
-.section-name{
-    margin-bottom: 8px;
-}
-
-.job-title{
-    padding: 32px 16px 32px;
-}
-
-.persona-title{
-    margin-bottom: 8px;
-}
-
-
-.promo-list-item{
-    width: calc((100% - 72px) / 4);
-}
-
-.team-list-item:not(:last-child){
-    margin-right: 24px;
-}
-
-.team-list-item{
-    width: calc((100% - 48px) / 3);
-}
-
-.title{
-    padding-top: 32px;
-    text-align: center;
-
-}
-
-.text{
-    padding-top: 8px;
-    padding-bottom: 32px;
-    text-align: center;
-}
-
-.footer{
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.text-footer{
-    padding-bottom:100px ;
-    padding-top: 17px;
-    padding-left: 156px;
-}
-
-/* <=====================P2============================> */
-
-.site-nav{
-    display: flex;
-    align-items: center;
-}
-
-.item-menu:not(:last-child){
-    margin-right: 40px;
-}
-
-.contact-list{
-    display: flex;
-}
-
-.contact-item:not(:last-child){
-    margin-right: 40px;
-    /* margin-right: auto; */
-}
- 
-                     /* <=======buttons=======> */
-.filter:not(:last-child){
-    margin-right: 24px;
-}
-
-               /* <!-- SECTIOT PHOTO --> */
-.list-photo{
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 24px;
-}       
 
