@@ -232,10 +232,7 @@ letter-spacing: 0.02em;
     margin-left: 76px;
 }
 
-.contact{
-    /* display: flex;
-    margin-left: auto; */
-}
+
 
 .contact .nav-item + .nav-item{
     margin-left: 40px;
@@ -364,9 +361,18 @@ letter-spacing: 0.02em;
     display: flex;
 }
 
+.button-list{
+    justify-content: center;
+    margin-bottom: 72px;
+}
 
 
 .buttons-filter{
+    padding-top: 12px; 
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -381,11 +387,13 @@ letter-spacing: 0.02em;
 }
 
 .buttons-filter:hover{
+    border: 1px solid transparent;
     color: #FFFFFF ;
     background-color: #404BBF;
 }
 
 .buttons-filter:focus{
+    border: 1px solid transparent;
     color: #FFFFFF;
     background-color: #404BBF;
 }
