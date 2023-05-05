@@ -331,6 +331,7 @@ letter-spacing: 0.02em;
 }
 
 .promo-list-item{
+    width: calc((100% - 48px) / 3);
     border: 1px solid #E7E9FC;
 }
 
