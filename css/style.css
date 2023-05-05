@@ -241,9 +241,9 @@ letter-spacing: 0.02em;
     margin-left: 40px;
 } */
 
-/* .menu-list{
+.menu-list{
     gap: 40px;
-} */
+}
 /* ?????????????? */
 .nav-item:not(:last-child){
     margin-right: 40px;
