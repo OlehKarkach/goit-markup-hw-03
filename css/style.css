@@ -370,8 +370,9 @@ letter-spacing: 0.02em;
     text-align: center;
 }
 
-.privelage-list{
-    width: calc((100% - 72px) / 4);
+.privelege-list{
+    /* width: calc((100% - 72px) / 4); */
+    width calc((100% - 3 * 24px) / 4);
 }
 
   
