@@ -242,7 +242,7 @@ letter-spacing: 0.02em;
 
 .nav-item{
     margin-left: 76px;
-    gap:40px;
+  
 }
 
 
@@ -254,15 +254,12 @@ letter-spacing: 0.02em;
 .menu-list{
     display: flex;
     align-items: center;
-    /* ?????? */
-    gap:40px;
-    /* ????? */
+
 }
 
 .contact{
     display: flex;
     align-items: center;
-    gap:40px;
 }
 
 .hero{
