@@ -71,6 +71,10 @@ body{
 }
 
 .link-list{
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;  
@@ -128,6 +132,9 @@ body{
 
 .logo,
 .top-logo{
+    /* //?????? */
+    margin-right: 76p;
+/* ??????   */
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -199,6 +206,7 @@ letter-spacing: 0.02em;
 .page-nav{
     display: flex;
     align-items: center;
+    
 
     font-weight: 500;
     font-size: 16px;
@@ -211,6 +219,8 @@ letter-spacing: 0.02em;
 .text-footer{
     color: #FFFFFF;
 }
+
+
 /* =====================PAGE#1==================== */
 .page-header-container{
     display: flex;
@@ -232,6 +242,7 @@ letter-spacing: 0.02em;
 
 .nav-item{
     margin-left: 76px;
+    gap:40px;
 }
 
 
@@ -243,12 +254,15 @@ letter-spacing: 0.02em;
 .menu-list{
     display: flex;
     align-items: center;
+    /* ?????? */
+    gap:40px;
+    /* ????? */
 }
 
 .contact{
     display: flex;
     align-items: center;
-    
+    gap:40px;
 }
 
 .hero{
@@ -318,9 +332,7 @@ letter-spacing: 0.02em;
     gap: 24px;
 }
 
-.job-title{
-    padding: 32px 16px;
-}
+
 
 .persona-title {
     text-align: center;
@@ -330,11 +342,10 @@ letter-spacing: 0.02em;
     text-align: center;
 }
 
-
-
 .privelage-list{
     width: calc((100% - 72px) / 4);
 }
+
   
 /* FOOTER */
 
