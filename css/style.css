@@ -132,9 +132,7 @@ body{
 
 .logo,
 .top-logo{
-    /* //?????? */
-    margin-right: 76p;
-/* ??????   */
+    
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -185,7 +183,6 @@ letter-spacing: 0.02em;
 .promo-title{
     margin-bottom: 72px;    
 
-    /* font-weight: 700; */
     font-size: 36px;
     line-height: 1.11;  
     text-align: center;
@@ -220,6 +217,7 @@ letter-spacing: 0.02em;
 
 .text-footer{
     color: #FFFFFF;
+    line-height: 24px;
 }
 
 
@@ -237,38 +235,30 @@ letter-spacing: 0.02em;
     margin-right: 76px;
 }
 
-/* .menu-list .nav-item + .nav-item{
-    margin-left: 40px;
-} */
 
 .menu-list{
     gap: 40px;
+    display: flex;
 }
-/* ?????????????? */
+
+/* .nav-item:not(:last-child){
+    margin-right: 40px;
+} */
+
+
 .nav-item:not(:last-child){
     margin-right: 40px;
 }
-/* ????????????? */
-/* ??????????? */
-.nav-item:not(:last-child){
-    margin-right: 40px;
-}
-/* ??????????? */
+
 .menu-list .contact-list{
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
-/* .nav-item{
-    margin-left: 76px;
-  
-} */
-
-
-.contact .nav-item + .nav-item{
+/* .contact .nav-item + .nav-item{
     margin-left: 40px;
-}
+} */
 
 .menu-list{
     display: flex;
@@ -279,6 +269,10 @@ letter-spacing: 0.02em;
 .contact{
     display: flex;
     align-items: center;
+}
+
+.contact .contact-link{
+    gap: 24px;
 }
 
 .hero{
@@ -357,6 +351,11 @@ letter-spacing: 0.02em;
     background-color: #F4F4FD
 }
 
+.section-team{
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
 .section{
     padding-top:120px ;
     padding-bottom:120px ;
@@ -368,6 +367,9 @@ letter-spacing: 0.02em;
 }
 
 
+.team-list{
+    gap:24px;
+}
 
 .persona-title {
     text-align: center;
