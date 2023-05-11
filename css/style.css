@@ -269,6 +269,7 @@ letter-spacing: 0.02em;
 .contact{
     display: flex;
     align-items: center;
+
 }
 
 .contact .contact-link{
@@ -373,6 +374,7 @@ letter-spacing: 0.02em;
 
 
 .team-list{
+    
     gap:24px;
 }
 
@@ -399,7 +401,7 @@ letter-spacing: 0.02em;
 
 .bottom-logo{
     display: inline-block;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
 }
 
 .footer-logo{
